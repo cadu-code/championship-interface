@@ -97,7 +97,7 @@ button {
     font-size: 1.2em;
     background-color: var(--cor4);
     border: 0px;
-    margin: 0.8em 1em 1em 10em;
+    margin: 20px 0px;
     color: white;
     padding: 0.2em 0.6em;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.404);
