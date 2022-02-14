@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Inscrição</title>
+    <link rel="shortcut icon" href="images/ffavicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/forms.css">
+</head>
+<body>
+
+    <div>
+        <h1 id="titulo">Cadastro - Campeonato</h1>
+        <p id="subtitulo">Favor preencher com suas informações verídicas.</p>
+        <br>
+    </div>
+
+    <form>
+
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+
+            <div class="campo">
+                <label for="sobrenome"><strong>Sobrenome</strong></label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+                
+            </div>
+        </fieldset>
+
+            <div class="campo">
+                <label for="whatsapp"><strong>WhatsApp</strong></label>
+                <input type="tel" name="whatsapp" id="whatsapp" required>     
+            </div>
+
+            <div class="campo">
+                <label for="idade"><strong>Data de Nascimento</strong></label>
+                <input type="date" name="data_nascimento" id="idade" required>
+            </div>
+            
+            <div class="campo">
+                <label for="nivel"><strong>Seu nível é: </strong></label>
+                <select id="nivel">
+                    <option selected disabled value="">Selecione</option>
+                    <option>Iniciante</option>
+                    <option>Básico</option>
+                    <option>Regular</option>
+                    <option>Experiente</option>
+                    <option>Avançado</option>
+                </select>
+            </div>
+
+            <fieldset class="grupo">
+                <div id="check">
+                    <label><strong>Selecione o(s) seu(s) horário(s) de preferência para ocorrerem os jogos: </strong></label><br><br>
+                    <input type="checkbox" id="horario1" name="dia" value="manha">
+                    <label for="horario1">Manhã (9h)</label>
+                    <input type="checkbox" id="horario2" name="tarde" value="tarde">
+                    <label for="horario2">Tarde (15h)</label>
+                    <input type="checkbox" id="horario3" name="noite" value="noite">
+                    <label for="horario3">Noite (18h)</label>
+                </div>
+            </fieldset>
+            <br>
+            <div class="campo">
+                <label><strong>Você é: </strong></label>
+                <label>
+                    <input type="radio" name="status" id="morador" value="status" checked>Morador
+                </label> 
+                <label>
+                    <input type="radio" name="status" id="visitante" value="status">Visitante
+                </label>
+            </div>
+
+        <button type="submit" onsubmit="">Concluído</button>
+    </form>
+
+</body>
+</html>

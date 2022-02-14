@@ -1,0 +1,196 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;0,800;1,300;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;700;800&display=swap');
+
+:root {
+    --cor0: #9CAED6;
+    --cor1: #3963c4;
+    --cor2: #2558CF;
+    --cor3: #183883;
+    --cor4: #0E224F;
+
+    --fonte-padrao: 'Open Sans', Arial, Helvetica, sans-serif;
+    --fonte-destaque: 'Roboto Slab', serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor0);
+    font-family: var(--fonte-padrao);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor3)); 
+}
+
+header > img {
+    max-height: 150px;
+    display: block;
+    margin: auto;
+}
+
+header > p {
+    color: white;
+    text-align: center;
+    padding: 12px 0px;
+    font-size: 18px;
+}
+
+.menu {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 5px 7px;
+}
+
+header #menus {
+    padding: 5px 0px;
+}
+
+nav{
+    width: 100%;
+    overflow: auto;
+    background-color: var(--cor4);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.774) ;
+}
+
+nav a {
+    float: left;
+    display: block;
+    padding: 10px 0px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    width: 25%;
+    text-align: center;
+}
+
+nav a:hover{
+    background-color: var(--cor2);
+}
+
+nav a:active{
+    color: rgba(20, 175, 20, 0.733);
+}
+
+/*Essa parte divide a parte principal do site em 2 colunas*/
+.coluna {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.fileira::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+/*(Sem Flexbox)*/
+
+h1 {
+    font-family: var(--fonte-destaque);
+    font-weight: 700;
+    margin: 30px 0px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.esquerda > h2 {
+    text-align: left;
+    width: 190%;
+    padding: 0px 7px;
+    font-family: var(--fonte-destaque);
+    background-image: linear-gradient(to right, var(--cor2), transparent);
+}
+
+
+.h2toright {
+    text-align: right;
+    padding: 0px 7px; 
+    font-family: var(--fonte-destaque);
+    background-image: linear-gradient(to right, transparent, var(--cor2));
+
+}
+
+.esquerda img {
+    width: 85%;
+    margin: 30px 0px;
+    border-style: solid;
+    border-color: var(--cor4);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.63);
+}
+
+.direita img {
+    width: 85%;
+    margin: 30px 0px 30px 30px;
+    border-style: solid;
+    border-color: var(--cor4);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.644);
+}
+
+.coluna p {
+    margin: 20px 0px;
+    padding: 0px;
+}
+
+.info {
+    width: 45%;
+    padding: 10px 0px;
+    margin: 10% 0px;
+    background-color: var(--cor3);
+    border-radius: 20px;
+    color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.644);
+}
+
+
+/*Editando os links*/
+.insc {
+    background-color: var(--cor4);
+    padding: 10px;
+    margin-top: 10%;
+    text-decoration: none;
+    color: var(--cor1);
+    border-radius: 10px;
+}
+
+.insc:hover {
+    color: white;
+    background-color: var(--cor2);
+}
+
+footer {
+    background-image: linear-gradient(to top, var(--cor3), var(--cor1));
+    columns: 3;
+    column-gap: 20px;
+}
+
+footer p {
+    text-align: center;
+    padding: 2px;
+    margin: 0px 2px;
+}
+
+footer img { 
+    width: 80px;
+    height: 100%;
+    display: block;
+    float:right;
+    margin-left:20px;
+    margin-top: 10px;
+}
+
+ footer a { 
+    text-decoration: underline;
+    color: black;
+ }
+
+ footer a:hover {
+     color: white;;
+ }

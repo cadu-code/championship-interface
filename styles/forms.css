@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;0,800;1,300;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;700;800&display=swap');
+
+:root {
+    --cor0: #9CAED6;
+    --cor1: #3963c4;
+    --cor2: #2558CF;
+    --cor3: #183883;
+    --cor4: #0E224F;
+
+    --fonte-padrao: 'Open Sans', Arial, Helvetica, sans-serif;
+    --fonte-destaque: 'Roboto Slab', serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: linear-gradient(to left, var(--cor1), var(--cor4));
+    font-family: var(--fonte-padrao);
+    font-size: 1em;
+    color: white;
+    margin-top: 2%;
+    margin-left: 36%;
+    justify-content: center;
+}
+
+#titulo {
+    font-family: var(--fonte-destaque);
+    color: var(--cor0);
+    margin-left: 7%;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.521);
+}
+
+#subtitulo {
+    font-family: var(--fonte-destaque);
+    color: var(--cor0);
+    margin-left: 10%;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.521);
+}
+
+#check {
+    display: inline-block;
+}
+
+input, select, button {
+    border-radius: 5px;
+}
+
+.grupo::before, .grupo::after {
+    display: table;
+}
+
+.grupo::after {
+    clear: both;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    display: block;
+}
+
+fieldset {
+    border: 0px;
+}
+
+fieldset .grupo .campo {
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="tel"], .campo select {
+    padding: 0.2em;
+    border: 2px solid var(--cor4);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.418);
+    display: block;
+} 
+
+.campo select option {
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus {
+    background-color: var(--cor0);
+}
+
+button {
+    font-size: 1.2em;
+    background-color: var(--cor4);
+    border: 0px;
+    margin: 0.8em 1em 1em 10em;
+    color: white;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.404);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.521);
+    ;
+}
+
+button:hover {
+    background-color: var(--cor2);
+    text-shadow: none;
+}
+
+#idade, button, select {
+    cursor: pointer;
+}
