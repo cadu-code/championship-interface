@@ -177,6 +177,10 @@ footer p {
     margin: 0px 2px;
 }
 
+footer .espaco {
+    text-align: right;
+}
+
 footer img { 
     width: 80px;
     height: 100%;
