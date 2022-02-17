@@ -14,14 +14,14 @@ you can access my web page through this link: <https://cadussantana.github.io/ch
 ## features to add posteriorly...
 
 * integrate a database
-* enable the login
+* enable the login system
 * make it functional
 
 ## development curiosity❗
 
 There is no flexbox at this project.
 
-## what I have learn? 🧠
+## what I have learned? 🧠
 
 I've improved my habilities to structure a web page, I learn how to centralize the content\
 or align with the sides. I also learned how to add navigational pages inside our site\ 
