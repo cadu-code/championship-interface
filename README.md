@@ -19,7 +19,7 @@ you can access my web page through this link: <https://cadussantana.github.io/ch
 
 ## development curiosity❗
 
-There is no flexbox at this project.
+There is no flexbox in this project.
 
 ## what I have learned? 🧠
 
