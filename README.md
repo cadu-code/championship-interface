@@ -9,7 +9,7 @@ Now it's easier to make the submission for our neighbourhood competition.
 
 ## how to run the project?
 
-you can access my web page through this link: <https://cadussantana.github.io/championship-interface/> 
+you can access my web page through this link: <https://cadu-code.github.io/championship-interface/> 
 
 ## features to add posteriorly...
 
