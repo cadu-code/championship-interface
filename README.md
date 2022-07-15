@@ -9,7 +9,7 @@ Now it's easier to make the submission for our neighbourhood competition.
 
 ## how to run the project?
 
-you can access my web page through this link: <https://cadussantana.github.io/championship-interface/> 
+you can access my web page through this link: <https://cadu-code.github.io/championship-interface/> 
 
 ## features to add posteriorly...
 
@@ -23,6 +23,6 @@ There is no flexbox in this project.
 
 ## what I have learned? 🧠
 
-I've improved my habilities to structure a web page, I learn how to centralize the content\
+I've improved my habilities on structure a web page, I learn how to centralize the content\
 or align with the sides. I also learned how to add navigational pages inside our site\ 
-and now I know some basic forms develop habilities .
+and now I know some basic forms develop habilities.
