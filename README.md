@@ -26,3 +26,6 @@ There is no flexbox in this project.
 I've improved my habilities on structure a web page, I learn how to centralize the content\
 or align with the sides. I also learned how to add navigational pages inside our site\ 
 and now I know some basic forms develop habilities.
+
+*Termina essa poura logo*
+Show de bola**
